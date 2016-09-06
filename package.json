@@ -1,0 +1,49 @@
+{
+  "name": "ohuoyi-web",
+  "private": true,
+  "scripts": {
+    "start with local db": "MONGO_URL=mongodb://localhost:27017/coder-forum meteor run --port 3000 --settings settings.json",
+    "start with remote db": "MONGO_URL=mongodb://coder:Q123321q@121.201.68.59:27017/coder-forum meteor run --port 3100 --settings settings.json",
+    "start with setting": "meteor run --settings settings.json",
+    "meteor:test with local db": "MONGO_URL=mongodb://localhost:27017/coder-forum meteor test --driver-package=practicalmeteor:mocha  --settings settings.json",
+    "storybook": "start-storybook -p 9001 -s ./public"
+  },
+  "dependencies": {
+    "animate.css": "git+https://github.com/daneden/animate.css.git",
+    "bcrypt": "^0.8.7",
+    "classnames": "^2.2.5",
+    "factory": "^1.0.3",
+    "faker": "^3.1.0",
+    "formsy-material-ui": "^0.5.0",
+    "formsy-react": "^0.18.1",
+    "material-ui": "^0.15.0",
+    "meteor-node-stubs": "^0.2.3",
+    "moment": "^2.14.1",
+    "normalize.css": "^4.2.0",
+    "pingpp-js": "^2.1.1",
+    "random-js": "^1.0.8",
+    "react": "^15.1.0",
+    "react-addons-css-transition-group": "^15.1.0",
+    "react-addons-linked-state-mixin": "^15.1.0",
+    "react-addons-perf": "^15.1.0",
+    "react-addons-pure-render-mixin": "^15.1.0",
+    "react-addons-test-utils": "^15.1.0",
+    "react-datepicker": "^0.27.0",
+    "react-dom": "^15.1.0",
+    "react-markdown": "^2.4.2",
+    "react-mobile-picker": "^0.1.10",
+    "react-mounter": "^1.2.0",
+    "react-tap-event-plugin": "^1.0.0",
+    "scrollmagic": "^2.0.5",
+    "simplesmtp": "^0.3.35"
+  },
+  "devDependencies": {
+    "@kadira/storybook": "^2.3.0",
+    "chance": "^1.0.4",
+    "image-webpack-loader": "^2.0.0",
+    "json-loader": "^0.5.4",
+    "raw-loader": "^0.5.1",
+    "react-komposer": "^1.13.1",
+    "style-loader": "^0.13.1"
+  }
+}

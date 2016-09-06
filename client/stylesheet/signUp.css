@@ -1,0 +1,16 @@
+.signUp_page {
+  display: flex;
+  flex-direction: column;
+}
+.signUp_page .header {
+  padding: 10px 20px;
+  background-color: #f6f6f6;
+}
+.signUp_page .form {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  justify-content: center;
+  height: 500px;
+}

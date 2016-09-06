@@ -1,0 +1,13 @@
+.about_page {
+  display: flex;
+  flex-direction: column;
+  min-height: 500px;
+}
+.about_page .header {
+  padding: 10px 20px;
+  background-color: #f6f6f6;
+}
+.about_page .content {
+  width: 100%;
+  padding: 10px 15px;
+}

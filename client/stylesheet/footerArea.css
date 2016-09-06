@@ -1,0 +1,28 @@
+.footer_area {
+  display: flex;
+  background-color: white;
+  height: 100%;
+  padding: 10px 80px;
+}
+.footer_area .related_list {
+  display: flex;
+}
+.footer_area .related_list .item {
+  margin-right: 20px;
+  font-size: 14px;
+}
+.footer_area a {
+  text-decoration: none;
+}
+.footer_area a:hover {
+  color: black;
+}
+.footer_area a:visited {
+  color: black;
+}
+.footer_area a:link {
+  color: black;
+}
+.footer_area a {
+  color: black;
+}

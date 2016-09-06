@@ -1,0 +1,15 @@
+.pubPosts_page {
+  display: flex;
+  flex-direction: column;
+}
+.pubPosts_page .header {
+  padding: 10px 20px;
+  background-color: #f6f6f6;
+}
+.pubPosts_page .form {
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}

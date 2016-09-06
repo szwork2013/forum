@@ -1,0 +1,9 @@
+.right_comp .header {
+  padding: 10px 15px;
+  background-color: #f6f6f6;
+  font-size: 14px;
+}
+.right_comp .comp_content {
+  background-color: white;
+  padding: 15px 15px;
+}

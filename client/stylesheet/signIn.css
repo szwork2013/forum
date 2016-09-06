@@ -1,0 +1,23 @@
+.signIn_page {
+  display: flex;
+  flex-direction: column;
+}
+.signIn_page .header {
+  padding: 10px 20px;
+  background-color: #f6f6f6;
+}
+.signIn_page .form {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.signIn_page .form .op_area {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

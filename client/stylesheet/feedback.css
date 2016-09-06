@@ -1,0 +1,15 @@
+.feedback_page {
+  display: flex;
+  flex-direction: column;
+}
+.feedback_page .header {
+  padding: 10px 20px;
+  background-color: #f6f6f6;
+}
+.feedback_page .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}

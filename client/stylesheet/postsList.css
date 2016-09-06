@@ -1,0 +1,93 @@
+.posts_list_page {
+  background-color: white;
+}
+.posts_list_page .category_list {
+  display: flex;
+  padding: 10px 20px;
+  border-bottom: 1px solid #c5c5c5;
+}
+.posts_list_page .category_list .category_item {
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 14px;
+  margin-right: 5px;
+}
+.posts_list_page .category_list .category_item:last-child {
+  margin-right: 0px;
+}
+.posts_list_page .category_list .category_item.active {
+  background-color: #00acc1;
+  color: white;
+}
+.posts_list_page .posts_list {
+  display: flex;
+  flex-direction: column;
+}
+.posts_list_page .posts_list .posts_item {
+  display: flex;
+  cursor: pointer;
+  padding: 12px 15px;
+  align-items: center;
+  border-bottom: 1px solid #bfbfbf;
+}
+.posts_list_page .posts_list .posts_item .avatar {
+  width: 80px;
+}
+.posts_list_page .posts_list .posts_item .statistics {
+  padding: 0 10px;
+  height: 15px;
+  line-height: 15px;
+  font-size: 13px;
+}
+.posts_list_page .posts_list .posts_item .statistics .replies {
+  color: #00acc1;
+}
+.posts_list_page .posts_list .posts_item .statistics .line {
+  font-size: 12px;
+  padding: 0 5px;
+}
+.posts_list_page .posts_list .posts_item .statistics .views {
+  color: #757575;
+}
+.posts_list_page .posts_list .posts_item .title {
+  padding: 0px 10px;
+  flex-grow: 1;
+  font-size: 14px;
+}
+.posts_list_page .posts_list .posts_item .data {
+  width: 80px;
+  font-size: 13px;
+  color: #7a7a7a;
+}
+.posts_list_page .posts_list .posts_item .isUp {
+  background-color: #00acc1;
+  color: white;
+  font-size: 12px;
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+.posts_list_page .posts_list .posts_item:last-child {
+  border-width: 0;
+}
+.posts_list_page .posts_list .posts_item:hover {
+  background-color: #f1f1f1;
+}
+.posts_list_page .posts_list .tips {
+  padding: 12px 15px;
+  font-size: 14px;
+  font-size: #f6f6f6;
+}
+.posts_list_page .posts_list a,
+.posts_list_page .posts_list a:hover,
+.posts_list_page .posts_list a:focus,
+.posts_list_page .posts_list a:active,
+.posts_list_page .posts_list a:visited {
+  text-decoration: none;
+  color: black;
+}
+.posts_list_page .loadPosts,
+.posts_list_page .pagination_area {
+  display: flex;
+  padding: 10px 20px;
+  justify-content: center;
+}

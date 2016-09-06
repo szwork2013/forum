@@ -1,0 +1,8 @@
+.react_md {
+  font-size: 15px;
+  width: 100%;
+  overflow-y: scroll;
+}
+.react_md::-webkit-scrollbar {
+  display: none;
+}

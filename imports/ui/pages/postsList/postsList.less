@@ -1,0 +1,94 @@
+@import (reference)"../../layouts/main";
+
+.posts_list_page{
+    background-color: white;
+    .category_list{
+        display: flex;
+        padding: 10px 20px;
+        border-bottom: 1px solid #c5c5c5;
+        .category_item{
+            cursor: pointer;
+            padding: 5px 10px;
+            font-size: 14px;
+            margin-right: 5px;
+        }
+        .category_item:last-child{
+            margin-right: 0px;
+        }
+        .category_item.active{
+            background-color: @theme-color;
+            color: white;
+        }
+    }
+    .posts_list{
+        display: flex;
+        flex-direction: column;
+        .posts_item{
+            display: flex;
+            cursor: pointer;
+            padding: 12px 15px;
+            align-items: center;
+            border-bottom: 1px solid #bfbfbf;
+            .avatar{
+                width: 80px;
+            }
+            .statistics{
+                padding: 0 10px;
+                height: 15px;
+                line-height: 15px;
+                font-size: 13px;
+                .replies{
+                    color:@theme-color;
+                }
+                .line{
+                    font-size: 12px;
+                    padding: 0 5px;
+                }
+                .views{
+                    color: #757575;
+                }
+            }
+            .title{
+                padding: 0px 10px;
+                flex-grow: 1;
+                font-size: 14px;
+            }
+            .data{
+                width: 80px;
+                font-size: 13px;
+                color: #7a7a7a;
+            }
+            .isUp{
+                background-color: @theme-color;
+                color: white;
+                font-size: 12px;
+                padding: 5px 8px;
+                border-radius: 5px;
+            }
+        }
+        .posts_item:last-child{
+            border-width: 0;
+        }
+        .posts_item:hover{
+            background-color: #f1f1f1;
+        }
+        .tips{
+            padding: 12px 15px;
+            font-size: 14px;
+            font-size: @gray-color;
+        }
+        a,
+        a:hover,
+        a:focus,
+        a:active,
+        a:visited {
+            text-decoration: none;
+            color: black;
+        }
+    }
+    .loadPosts,.pagination_area{
+        display: flex;
+        padding: 10px 20px;
+        justify-content: center;
+    }
+}
